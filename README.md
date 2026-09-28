@@ -100,7 +100,7 @@ Your typing performance directly commands your racing machine: speed up with fas
 ### 2. Installation
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/SandeepVashishtha/TypeRush.git
 
 # Navigate into the project folder
 cd typerush
