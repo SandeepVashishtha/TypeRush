@@ -1,4 +1,4 @@
-# 🏎️ TYPE RACER
+# TYPE RACER
 
 An arcade browser-based typing racing game built with **Next.js (App Router), React, JavaScript (ES6+ / JSX), Tailwind CSS, and HTML5 Canvas**. 
 
@@ -6,40 +6,40 @@ Your typing performance directly commands your racing machine: speed up with fas
 
 ---
 
-## 🎮 Gameplay Features
+## Gameplay Features
 
-* **🏎️ 60 FPS HTML5 Canvas Racing Engine**:
+* **60 FPS HTML5 Canvas Racing Engine**:
   * Multi-lane racing track with animated road markings, parallax cyberpunk skyline, and checkered finish line.
   * Vector-rendered sports cars with glowing underglow neon, active headlights, tire smoke, and chassis vibration.
   * Dynamic visual effects: speed lines, camera screen shake, and twin plasma nitro exhaust flames.
 
-* **⌨️ Single-Line Horizontal Typestream**:
+* **Single-Line Horizontal Typestream**:
   * High-visibility marquee tape positioned prominently at the top of the screen.
   * Smooth horizontal auto-tracking with real-time word anticipation and current cursor centering.
   * Distinct character states: Neon Cyan for correct keys, Neon Pink for errors, and glowing caret for current letter.
 
-* **🤖 4 Adaptive AI Difficulty Tiers**:
+* **4 Adaptive AI Difficulty Tiers**:
   * **Rookie**: 32–42 WPM (Cyber Dart)
   * **Pro**: 52–65 WPM (Viper GT)
   * **Champion**: 75–88 WPM (Thunderbolt)
   * **Legend**: 95–115 WPM (Phantom Mach-X)
   * Simulates natural human typing rhythms with speed bursts and realistic micro-hesitations.
 
-* **⚡ Nitro & Combo Overdrive**:
+* **Nitro & Combo Overdrive**:
   * Consecutive correct keystrokes build combos (`x5`, `x10`, `x20`, `x30+`).
   * Full nitro meter unlocks instant boost via `Shift` or `Spacebar` for a 1.65x acceleration burst.
 
-* **🔊 Procedural Web Audio API Synthesizer**:
+* **Procedural Web Audio API Synthesizer**:
   * Real-time zero-asset audio synthesis: mechanical key clicks, countdown tones, nitro sweeps, and victory fanfares.
   * Global persistent sound mute/unmute control.
 
-* **🏆 Career Records & Local Persistence**:
+* **Career Records & Local Persistence**:
   * Tracks highest WPM, win rate, accuracy records, and recent match telemetry in `localStorage`.
   * Celebratory confetti blast and "NEW PERSONAL BEST!" badges on record breaks.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
 * **Library**: [React 18](https://react.dev/)
@@ -52,7 +52,7 @@ Your typing performance directly commands your racing machine: speed up with fas
 
 ---
 
-## 📁 Project Architecture
+## Project Architecture
 
 ```text
 ├── app/
@@ -77,7 +77,7 @@ Your typing performance directly commands your racing machine: speed up with fas
 │       └── LeaderboardModal.jsx # Career history & record telemetry modal
 └── lib/
     ├── audio/
-    │   └── soundSynth.js     # Procedural Web Audio synthesizer
+    └── soundSynth.js     # Procedural Web Audio synthesizer
     └── game/
         ├── aiEngine.js       # Adaptive AI driver simulation
         ├── constants.js      # Game constants & difficulty definitions
@@ -91,7 +91,7 @@ Your typing performance directly commands your racing machine: speed up with fas
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 * [Node.js](https://nodejs.org/) (v18.17 or later)
@@ -100,7 +100,7 @@ Your typing performance directly commands your racing machine: speed up with fas
 ### 2. Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/typerush.git
+git clone <repository-url>
 
 # Navigate into the project folder
 cd typerush
@@ -123,7 +123,7 @@ npm start
 
 ---
 
-## ⌨️ Game Controls & Shortcuts
+## Game Controls & Shortcuts
 
 | Action | Keybinding |
 | :--- | :--- |
@@ -132,8 +132,3 @@ npm start
 | **Trigger Nitro** | `Shift` (or `Space` when meter is 100% full) |
 | **Restart Match** | Click `RESTART` button on top right |
 | **Exit to Main Menu** | `Escape` |
-
----
-
-## 📜 License
-MIT License © 2026 TYPE RACER. All rights reserved.
